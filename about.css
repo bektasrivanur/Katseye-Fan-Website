@@ -1,0 +1,240 @@
+@font-face {
+  font-family: karina;
+  src: url(font/Karina.ttf);
+}
+
+body {
+  background: linear-gradient(180deg, #ecbcff, #ffefad, #9ccaff, #d2ffbf, #ffa7a7, #ffc4f6);
+  text-align: center;
+  font-family: karina;
+}
+
+.header {
+  margin-top: 20px;
+  margin-bottom: 70px;
+  margin-left: 10px;
+  margin-right: 10px;
+  display: inline-flex;
+  gap: 800px;
+}
+
+.header img {
+  width: 160px;
+  height: 60px;
+}
+
+.header nav {
+  background-color: #ecbcff;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 20px;
+}
+
+.header nav:hover {
+  background-color: #9ccaff;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 20px;
+}
+
+.header a {
+  text-decoration: none;
+  color: #ffefad;
+}
+
+.header a:hover {
+  text-decoration: underline;
+  color: #d2ffbf;
+}
+
+.header span {
+  color: #ffffff;
+}
+
+.mainphoto {
+  background-color: #ffffff;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-left: 340px;
+  margin-right: 340px;
+  transition: transform 0.3s ease;
+}
+
+.mainphoto img {
+  width: 800px;
+  height: 450px;
+}
+
+.mainphoto:hover {
+  background: linear-gradient(to left, #ecbcff, #ffefad, #9ccaff, #d2ffbf, #ffa7a7, #ffc4f6);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-left: 340px;
+  margin-right: 340px;
+  border-radius: 30px;
+  box-shadow: 0 10px 25px #ffffff;
+  transform: translateY(-10px);
+}
+
+.about {
+  background: #ffa7a7;
+  color: #ffffff;
+  box-shadow: 10px 10px 5px #ffffff;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px; 
+  border-radius: 50px;
+  transition: transform 0.3s ease;
+}
+
+.about:hover {
+  background: #ffc4f6;
+  color: #ffffff;
+  box-shadow: 10px 10px 5px #ffffff;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px; 
+  border-radius: 50px;
+  transform: translateY(-10px);
+}
+
+.about h1:hover {
+  color: #d2ffbf;
+}
+
+.about h3:hover {
+  color: #d2ffbf;
+}
+
+.about p:hover {
+  color: #d2ffbf;
+}
+
+.secondphoto {
+  background-color: #ffffff;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-left: 340px;
+  margin-right: 340px;
+  transition: transform 0.3s ease;
+}
+
+.secondphoto img {
+  width: 800px;
+  height: 450px;
+}
+
+.secondphoto:hover {
+  background: linear-gradient(to left, #ecbcff, #ffefad, #9ccaff, #d2ffbf, #ffa7a7, #ffc4f6);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-left: 340px;
+  margin-right: 340px;
+  border-radius: 30px;
+  box-shadow: 0 10px 25px #ffffff;
+  transform: translateY(-10px);
+}
+
+.about2 {
+  background: #ffefad;
+  color: #ffffff;
+  box-shadow: 10px 10px 5px #ffffff;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px; 
+  border-radius: 50px;
+  transition: transform 0.3s ease;
+}
+
+.about2:hover {
+  background: #9ccaff;
+  color: #ffffff;
+  box-shadow: 10px 10px 5px #ffffff;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px; 
+  border-radius: 50px;
+  transform: translateY(-10px);
+}
+
+.about2 h1:hover {
+  color: #d2ffbf;
+}
+
+.about2 h3:hover {
+  color: #d2ffbf;
+}
+
+.about2 p:hover {
+  color: #d2ffbf;
+}
+
+.explorekatseye {
+  background-color: #ecbcff;
+  width: 500px;
+  margin-top: 50px;
+  margin-bottom: 70px;
+  margin-left: 500px;
+  margin-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 20px;
+  transition: transform 0.3s ease;
+}
+
+.explorekatseye:hover {
+  background-color: #9ccaff;
+  width: 500px;
+  margin-top: 20px;
+  margin-bottom: 70px;
+  margin-left: 500px;
+  margin-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 20px;
+  transform: translateY(-10px);
+}
+
+.explorekatseye h2{
+  color: #ffffff;
+}
+
+.explorekatseye a {
+  text-decoration: none;
+  color: #ffefad;
+}
+
+.explorekatseye a:hover {
+  text-decoration: underline;
+  color: #d2ffbf;
+}
+
+.explorekatseye span {
+  color: #ffffff;
+}
