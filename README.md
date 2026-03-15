@@ -40,4 +40,5 @@ This website is a fan project and is not officially affiliated with KATSEYE, HYB
 
 Created with care as a front-end practice project.
 
-##Live Demo: https://bektasrivanur.github.io/Katseye-Fan-Website/index.html
+## Live Demo
+https://bektasrivanur.github.io/Katseye-Fan-Website/index.html
